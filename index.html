@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <a href="./index.html">
+                <i class="fa-solid fa-house"></i>
+                Home</a>
+            <a href="./goals.html">
+                <i class="fa-solid fa-bullseye"></i>
+                Goals</a>
+            <a href="./future.html">
+                <i class="fa-solid fa-calendar"></i>
+                Future Actvuties</a>
+            <a href="./history.html">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                History</a>
+            <a href="./stats.html">
+                <i class="fa-solid fa-chart-column"></i>
+                Statistics</a>
+            <a href="./timer.html"> 
+                <i class="fa-solid fa-clock"></i>
+                Activity timer</a>
+                <a href="./notifications.html">
+                    <i class="fa-solid fa-bell"></i>
+                    Notifications</a>
+        </ul>
+        <button class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <h1> Daily Activities</h1>
+
+        <p class="js-date"></p>
+    </nav>
+    <main class="main">
+        <div class="progress">
+            <p class="js-progress-text"></p>
+            <div class="progress-bar">
+                <div class="js-progress-fill"></div>
+            </div>
+        </div>
+        <div class="js-add-activity">
+            <input type="text" placeholder="Enter Activity" class="activity-input">
+            <button class="js-add">Add actvivty</button>
+        </div>
+        
+        <div class="js-activity">
+            
+        </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
